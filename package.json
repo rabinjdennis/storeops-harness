@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "dev": "ts-node --esm src/server.ts",
     "typecheck": "tsc --noEmit",
     "test": "jest",
